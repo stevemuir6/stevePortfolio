@@ -46,7 +46,7 @@
     <div class="row align-items-start">
       <div class="col-md-2">
         <ul class="custom-menu">
-          <li><a href="index.html">Home</a></li>
+          <li class="active"></li>><a href="index.html">Home</a></li>
           <li><a href="#about">About Me</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#works">Works</a></li>
@@ -64,7 +64,7 @@
       </div>
       <div class="col-md-4 d-none d-md-block">
         <h3></h3>
-        <img src="img/IMG_3193.jpg" alt class="img-fluid rounded-circle">
+        <img src="img/IMG_3193.jpg" id="nav-potrait">
         <p>text here <br> <a href="#">smuir623@gmail.com</a></p>
       </div>
     </div>
@@ -74,7 +74,7 @@
 
 <nav class="navbar navbar-light custom-navbar">
   <div class="container">
-    <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+    <a class="navbar-brand" href="index.html">Steve Muir</a>
 
     <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
       <span></span>
@@ -108,23 +108,20 @@
         <div class="col-3 ml-auto order-2" data-aos="fade-up">
           <h3 class="h3 mb-4">Skills</h3>
               <div class="col-6 d-flex mb-1">
-                <img src="img/html5icon.png" alt="HTML 5" style="height:100px;width:100px">
-          
-              <div class="col-6 d-flex mb-1">
-                <img src="img/css3.png" alt="CSS 3" style="height:50px;width:50px">
-              </li>
-              </div>
-              <div class="col-6 d-flex mb-1">
-                <img src="img/csharp.png" alt="C#" style="height:50px;width:50px">
-              </li>
-              </div>
-              <div class="col-6 d-flex mb-1">
-                <img src="img/htmlbadge.png" alt="HTML" style="height:100px;width:100px">
-              </li>
-              </div>
-              <div class="col-6 d-flex mb-1">
-                <img src="img/sql.png" alt="SQL" style="height:50px;width:50px">
-              </li>
+                <ul className="icofont-ul list-inline text-center">
+                  <li>
+                    <span class="icofont-file-css icofont-5x"></span>
+                  </li>
+                  <li>
+                    <span class="icofont-file-html5 icofont-5x"></span>
+                  </li>
+                  <li>
+                    <span class="icofont-file-javascript icofont-5x"></span>
+                  </li>               
+                  <li>
+                    <span class="icofont-file-sql icofont-5x"></span>
+                  </li>
+                </ul> 
               </div>
               
           
@@ -148,16 +145,16 @@
           <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
               <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Web</a>
-              <a href="#" data-filter=".design">Design</a>
-              <a href="#" data-filter=".branding">Branding</a>
-              <a href="#" data-filter=".photography">Photography</a>
+              <a href="https://s-muirtacocat.netlify.app/" data-filter=".web">TacoCat</a>
+              <a href="https://smuir-fizzbuzz.netlify.app/" data-filter=".design">FizzBuzz</a>
+              <a href="https://smuir-sumofallfears.netlify.app/" data-filter=".branding">Sum of All Fears</a>
+              <a href="https://smuir-sunsethills.netlify.app" data-filter=".photography">Sunset Hills</a>
             </div>
           </div>
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
+            <a href="https://s-muirtacocat.netlify.app/" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Boxed Water</h3>
                 <span>Web</span>
@@ -166,7 +163,7 @@
             </a>
           </div>
           <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
+            <a href="https://smuir-fizzbuzz.netlify.app/" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Build Indoo</h3>
                 <span>Photography</span>
@@ -175,7 +172,7 @@
             </a>
           </div>
           <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
+            <a href="https://smuir-sumofallfears.netlify.app/" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Cocooil</h3>
                 <span>Branding</span>
@@ -184,7 +181,7 @@
             </a>
           </div>
           <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
+            <a href="https://smuir-sunsethills.netlify.app" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Nike Shoe</h3>
                 <span>Design</span>
@@ -193,7 +190,7 @@
             </a>
           </div>
           <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" class="item-wrap fancybox">
+            <a href="https://smuir-loan-calculator.netlify.app/" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Kitchen Sink</h3>
                 <span>Photography</span>
